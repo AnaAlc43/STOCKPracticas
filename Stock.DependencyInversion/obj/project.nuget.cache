@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPDYK958zMlMcttUIOWpp1f+9icrKZcTW76hbRBIhHTACdJ99jby2Ra+H44ixpIXrGt/z9AOdEiNXj+xWwNtTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.DependencyInversion\\Stock.DependencyInversion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anaan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\anaan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\anaan\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

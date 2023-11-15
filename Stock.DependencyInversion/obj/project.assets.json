@@ -1,0 +1,320 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Stock.BusinessRules/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Stock.COMMON": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stock.BusinessRules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.BusinessRules.dll": {}
+        }
+      },
+      "Stock.COMMON/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Stock.COMMON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.COMMON.dll": {}
+        }
+      },
+      "Stock.Controllers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Stock.BusinessRules": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stock.Controllers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.Controllers.dll": {}
+        }
+      },
+      "Stock.Presenters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Stock.BusinessRules": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stock.Presenters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.Presenters.dll": {}
+        }
+      },
+      "Stock.UsesCase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Stock.BusinessRules": "1.0.0",
+          "Stock.COMMON": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stock.UsesCase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.UsesCase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+      "sha512": "f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "sha512": "um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Stock.BusinessRules/1.0.0": {
+      "type": "project",
+      "path": "../Stock.BusinessRules/Stock.BusinessRules.csproj",
+      "msbuildProject": "../Stock.BusinessRules/Stock.BusinessRules.csproj"
+    },
+    "Stock.COMMON/1.0.0": {
+      "type": "project",
+      "path": "../Stock.COMMON/Stock.COMMON.csproj",
+      "msbuildProject": "../Stock.COMMON/Stock.COMMON.csproj"
+    },
+    "Stock.Controllers/1.0.0": {
+      "type": "project",
+      "path": "../Stock.Controllers/Stock.Controllers.csproj",
+      "msbuildProject": "../Stock.Controllers/Stock.Controllers.csproj"
+    },
+    "Stock.Presenters/1.0.0": {
+      "type": "project",
+      "path": "../Stock.Presenters/Stock.Presenters.csproj",
+      "msbuildProject": "../Stock.Presenters/Stock.Presenters.csproj"
+    },
+    "Stock.UsesCase/1.0.0": {
+      "type": "project",
+      "path": "../Stock.UsesCase/Stock.UsesCase.csproj",
+      "msbuildProject": "../Stock.UsesCase/Stock.UsesCase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
+      "Stock.Controllers >= 1.0.0",
+      "Stock.Presenters >= 1.0.0",
+      "Stock.UsesCase >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\anaan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.DependencyInversion\\Stock.DependencyInversion.csproj",
+      "projectName": "Stock.DependencyInversion",
+      "projectPath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.DependencyInversion\\Stock.DependencyInversion.csproj",
+      "packagesPath": "C:\\Users\\anaan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.DependencyInversion\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\anaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.Controllers\\Stock.Controllers.csproj": {
+              "projectPath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.Controllers\\Stock.Controllers.csproj"
+            },
+            "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.Presenters\\Stock.Presenters.csproj": {
+              "projectPath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.Presenters\\Stock.Presenters.csproj"
+            },
+            "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.UsesCase\\Stock.UsesCase.csproj": {
+              "projectPath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\proyectoStock\\Stock.UsesCase\\Stock.UsesCase.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

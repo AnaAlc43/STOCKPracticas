@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ozM4ex5JbBnN5H+IMgLKlZCy2IT8gyNl/+H+jPnXu+nUKg3PTu1GK501pG2+ujkhQOj8jfwUysHuH/eKUDDxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anaan\\Documents\\01.CleanArquitecture\\ProyectoStockPracticas\\proyectoStock\\Stock.Controllers\\Stock.Controllers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anaan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
