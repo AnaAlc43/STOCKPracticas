@@ -35,10 +35,7 @@ La arquitectura limpia garantiza una separación clara entre las capas del siste
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tuusuario/tuproyecto.git`
-2. Configura la conexión a la base de datos en `CapaDatos/ConexionBD.cs`.
-3. Ejecuta el script de la base de datos proporcionado en `scripts/crear_base_datos.sql`.
-
+1. Clona el repositorio: [https://github.com/AnaAlc43/STOCKPracticas.git]
 
 ## Uso
 
